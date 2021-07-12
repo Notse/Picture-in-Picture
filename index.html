@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Title -->
+    <title>Picture In Picture | Notse</title>
+</head>
+<body>
+    
+    <video id="video" controls height="360" width="640" hidden> </video>
+    <!-- PIP Mode Button -->
+    <div class="button-container tooltip">
+        <button id="Start-button" ><i class="fas fa-play"></i></button>
+        <span class="tooltiptext"> Click To Play media in Picture In Picture Mode</span>       
+    </div>
+    
+    <!-- LED DIV -->
+    <div class="led-box">
+        <div id="led-red" ></div>
+        <p id="switch-status">OFF </p>
+      </div>
+      
+</body>
+    <script src="script.js"> </script>    
+</html>
