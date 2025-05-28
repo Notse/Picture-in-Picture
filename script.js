@@ -19,7 +19,7 @@ async function selectMedia() {
         ModeStatus();
 
     } catch (error) {
-        console.log('Error! select Media ', error);
+        console.log('Error! select Media or not loaded ', error);
     }
 }
 
